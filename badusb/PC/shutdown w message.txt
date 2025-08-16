@@ -1,0 +1,13 @@
+REM Author: @efertechtok
+REM Shows a message, then shuts down the PC
+GUI r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 1000
+STRING Greetings from efertechtok , Goodbye :) 
+DELAY 1500
+ALT F4
+DELAY 500
+STRING shutdown /s /t 5
+ENTER

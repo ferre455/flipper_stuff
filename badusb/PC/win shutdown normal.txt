@@ -1,0 +1,6 @@
+REM Author: @efertechtok
+REM shuts down the PC
+GUI r
+DELAY 500
+STRING shutdown /s /t 0
+ENTER
